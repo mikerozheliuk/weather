@@ -8,7 +8,7 @@ async function loadWeather(e) {
             <img src="icons/loaded.gif" alt="loading">
         </div>`;
 
-        const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Buchach&appid=b847a9421c7ef198cf76b2bde8b394b5';
+        const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Buchach&appid="your key"';
         const response = await fetch(server, {
             method: 'GET',
         });
